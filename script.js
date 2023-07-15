@@ -67,10 +67,12 @@ function color()
 }
 */
 /*que 7 */
+
+ let flexdir = document.getElementById("parent_id");
  flexdir.style.flexDirection = "row";
 function flex()
 {
-    let flexdir = document.getElementById("parent_id");
+    //let flexdir = document.getElementById("parent_id");
    //  flexdir.style.flexDirection = "row";
 
     if(flexdir.style.flexDirection === "row")
