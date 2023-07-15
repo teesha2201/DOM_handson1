@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contain link of questions</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>Q.1:Write the code to access element which is having id as "text"?</h3>
+    <p>Ans:
+        let access = document.getElementById("text")";
+    </p>
+    <h3>Q.2:Write the code to access element which is having tag as "h1"?</h3>
+    <p>Ans:
+        let targetTag = document.getElementByTagName("h1");
+    </p>
+    <h3>Q.3:Write the code to access element which is having class as "box"?</h3>
+    <p>Ans:
+        let class_access = document.getElementByClassName("box");
+    </p>
+    <h3>Q.4:Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h3>
+    <p>Ans:
+        <h1 id="textchange">Hello</h1>
+        <button onclick="replaceText()">Change Text</button>
+    </p>
+    <h3>Q.5:Create an HTML page having content as Hello world and a button named Replace Text.
+         When user will click on this button page content
+         should be changed to "Welcome to Elevation academy"?
+    </h3>
+    <p>Ans:
+        <h1 id="helloworld">Hello World</h1>
+        <button onclick="changetext()">Change content</button>
+    </p>
+    <h3>Q.6:Add one style attribute and give text color as red and id attribute and
+        give the id value as ""heading"" in the above given h1 tag using DOM functions?
+    </h3>
+    <p>Ans:
+        <h1 id="heading" class="setcolor">Hello World</h1>
+        <button onclick="color()">color</button>
+    </p>
+    <h3>Q.7:Create three cards on HTML page and arrange them using flex property 
+        in row or horizontal direction and also create button at the bottom named 
+        "Change Flex direction". When user clicks on this button,
+        the cards arrangement should be changed to vertical direction?
+    </h3>
+    <p>Ans:
+        <div class="parent" id="parent_id">
+            <div class="child">card1</div>
+            <div class="child">card2</div>
+            <div class="child">card3</div>
+        </div>
+        <button onclick="flex()" id="flexbutton">Change Flex direction</button>
+    </p> 
+    <h3>Q.8:What's the difference between window vs document?</h3>
+    <p>Ans:
+        Window: The window is at a root/top level at the JavaScript object hierarchy. 
+        It  is a global/root object in JavaScript and it is the root object of the 
+        Document object model(DOM).Because the first thing that gets loaded into the browser
+        is the window and the properties related to that window are stored in the window object.
+        Properties related to window objects are length, innerWidth, innerHeight, caches, etc.
+        so after the window gets loaded then there's a document (HTML, PHP, or another document) loaded 
+        inside that window, and the properties related to that document is stored in the document object. Properties related to document objects are title, URL, cookie, etc.
+
+        Document: A document is an object inside the window object and we use
+        a document object for manipulation inside the document.
+
+    </p>
+    
+    <h3>Q.9:Write code to implement timer clock using JS -- display HH:MM:SS --
+        the time should keep updating every second?
+    </h3>
+    <p>Ans: In 24Hour Format:
+        <h1 id="time">
+        </h1> 
+    </p>
+    <h3>Q.10:"Guess the number Host link: 
+      <a href="https://anwaar29.github.io/Guess_1to100/">GuessNo que Link</a>  
+    </h3>
+    <p>Ans:
+        <a href=" https://teesha2201.github.io/Guess_no/">LINK TO check</a>
+        <br>
+        <a href="https://github.com/teesha2201/Guess_no.git">Host link</a>
+    </p>
+    <script src="./script.js"></script>
+   
+</body>
+</html>
