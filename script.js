@@ -70,7 +70,7 @@ function color()
 function flex()
 {
     let flexdir = document.getElementById("parent_id");
-    // flexdir.style.flexDirection = "row";
+     flexdir.style.flexDirection = "row";
 
     if(flexdir.style.flexDirection === "row")
     {
