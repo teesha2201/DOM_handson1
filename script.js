@@ -67,6 +67,7 @@ function color()
 }
 */
 /*que 7 */
+ flexdir.style.flexDirection = "row";
 function flex()
 {
     let flexdir = document.getElementById("parent_id");
